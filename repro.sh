@@ -12,8 +12,9 @@ function sample {
     echo
 }
 
-for expr_type in do try; do
-    for depth in $(seq 1 20); do
+#for expr_type in do try; do
+for expr_type in trynestcatch; do
+    for depth in $(seq 1 8); do
         sample
     done
 done
