@@ -1,36 +1,5 @@
 # nestedrepro
 
-FIXME: description
+Attempt at reproducing [CLJ-1852][CLJ-1852] with the kinds of expressions core.match produces (try/catch, do). See `repro.sh` for an automated reproduction.
 
-## Installation
-
-Download from http://example.com/FIXME.
-
-## Usage
-
-FIXME: explanation
-
-    $ java -jar nestedrepro-0.1.0-standalone.jar [args]
-
-## Options
-
-FIXME: listing of options this app accepts.
-
-## Examples
-
-...
-
-### Bugs
-
-...
-
-### Any Other Sections
-### That You Think
-### Might be Useful
-
-## License
-
-Copyright © 2018 FIXME
-
-Distributed under the Eclipse Public License either version 1.0 or (at
-your option) any later version.
+[CLJ-1852]: https://dev.clojure.org/jira/browse/CLJ-1852
